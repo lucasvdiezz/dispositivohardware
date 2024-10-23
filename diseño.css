@@ -1,0 +1,63 @@
+/* Eliminar márgenes y padding del body */
+
+body {
+    font-family: Helvetica, sans-serif ; 
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 500px;
+    margin: 0px;
+}
+
+header {
+    background-color: #A70069;
+    color: #ffffff;
+}
+
+
+header{
+    padding: 15px 55px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+nav#principal ul  {
+    list-style: none;
+    margin-top: 80px;
+}
+
+nav#principal li  {
+    display: inline;
+    margin: 10px;
+}
+
+nav#principal a {
+    color: white;
+    font-size: 20px;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1024px;
+    font-size: 20px;
+}
+  
+
+
+footer {
+    background-color: #A70069;
+    color: #ffffff;
+}
+
+footer a {
+    color: white;
+}
+
+
+footer {
+    padding: 15px 55px;
+    font-size: 20px;
+}
